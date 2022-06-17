@@ -1,0 +1,7 @@
+O processo de TDD funciona da seguinte forma:
+
+Primeiro escrevemos um teste funcional e rodamos ele. Como os testes são escrito antes do código,
+eles não passam, então mescrevemos um código com o objetivo dele passar.
+Para isso, escrevemos um teste de unidade e o rodamos, como normalmente ele não passa, escrevemos um mínimo
+de código que permita que esse teste passe. 
+Em ambos os casos, quando os tests passam, avaliamos a necessidade de refatoração.
